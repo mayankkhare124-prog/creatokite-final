@@ -1,3 +1,4 @@
+import FAQ from "../components/FAQ";
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -217,6 +218,7 @@ export default function Landing() {
           </div>
         </div>
       </section>
+            <FAQ />
 
       {/* FOOTER */}
       <footer style={{borderTop:'1px solid var(--border)',padding:'22px 40px',display:'flex',alignItems:'center',justifyContent:'space-between',flexWrap:'wrap',gap:12}}>
